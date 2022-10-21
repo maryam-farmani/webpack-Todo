@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-text-todo{
+    display: flex; 
+    justify-content: center; 
+    margin-top: .3rem; 
+    text-align: center; 
+    font-size: xx-large;
+}
+
+.h1-text-todo-color{
+    color: #ecb590e5; 
+}
+
+.div-alert{
+    background-color: rgb(218, 185, 147); 
+    display: flex; 
+    position: fixed; 
+    top: 0; 
+    transition: all .3s ease; 
+    width: 100%; 
+    right: -100%;
+}
+
+.div-form{
+    display: flex; 
+    justify-content: center; 
+    margin-top: .3rem;
+}
+
+.form-input{
+    border: .1rem solid #9c8577; 
+    border-radius: .3rem; 
+    width: 100%; 
+    margin-top: .3rem;
+}
+
+.button-submit{
+    background-color: rgb(211, 167, 131); 
+    color: white; 
+    border-radius: .3rem;  
+    width: 100%;
+}
+
+.div-ul{
+    display: flex; 
+    justify-content: center; 
+    margin-top: .3rem;
+}
+
+.ul-styles{
+    width: 20rem; 
+    color: #e2ba91c9; 
+}
+
+.btnclass{
+    margin-right: .2rem;
+    background-color: #d3a783;
+    color: white;
+    border: 0rem;
+    border-radius: 1rem;
+    margin-top: .5rem;
+    width: 32%;
+}
+
+.title-input {
+    background-color: transparent;
+    border: none;
+    font-size: inherit;
+    outline: none;
+    color: rgb(80, 50, 50);
+    width: 100%;
+}
